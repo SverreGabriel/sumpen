@@ -1,0 +1,90 @@
+/* Mobil-first styling */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f9f3;
+    color: #222;
+    line-height: 1.6;
+    max-width: 480px;  /* holder layout som mobil */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigasjonsbar */
+.nav-bar {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdc0d4;
+    padding: 12px 0;
+}
+
+.nav-bar img {
+    width: 50vw;
+}
+
+/* Artikkelcontainer */
+.sak-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Bilde */
+.sak-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.sak-1-bilde {
+    width: 95%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Fototekst */
+.sak1-fotekst {
+    width: 95%;
+    max-width: 400px;
+    background-color: #ecebe2;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+.sak1-fotekst p {
+    margin: 0;
+}
+
+/* Artikkelen */
+.sak1-sak {
+    width: 95%;
+    max-width: 400px;
+    background-color: #f8f9f3;
+    padding: 15px 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+/* Overskrifter */
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Avsnitt */
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
